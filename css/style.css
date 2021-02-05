@@ -86,6 +86,59 @@ a {
     text-decoration: none;
 }
 
+/* Main navigation */
+
+.main-header-logo img:hover{
+    opacity: 70%;
+}
+
+.main-header-logo img:active
+{
+    opacity: 30%;
+}
+
+.main-navigation {
+    /*font-size: 16px;*/
+    /*line-height: 20px;*/
+    /*color: var(--basic-white);*/
+
+    /*background-color: transparent;*/
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.user-navigation{
+    font-family: var(--alt-font);
+    color: var(--black-basic);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.site-navigation a,
+.user-navigation a {
+    color: var(--black-basic);
+}
+
+.site-navigation a:hover,
+.user-navigation a:hover
+ {
+    opacity: 70%;
+}
+
+.user-navigation a:focus {
+    opacity: 30%;
+}
+
+.site-navigation a:active
+{
+    opacity: 30%;
+}
+
+
+/*Partners-stores*/
+
 .visually-hidden{
     color: transparent;
 }
